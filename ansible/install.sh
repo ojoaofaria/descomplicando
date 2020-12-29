@@ -3,7 +3,6 @@ echo "
 # -------------------------------
 # APT GET UPDATE
 # -------------------------------"
-echo "UPDATE"
 apt-get update && apt-get install unzip -y
 
 echo "

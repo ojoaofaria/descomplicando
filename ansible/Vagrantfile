@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
     config.vm.box = "bento/ubuntu-20.04"
-    config.vm.provision "shell", path: "install.sh"
+    config.vm.provision "shell", path: "docker.sh"
     #config.vm.network "forwarded_port", guest: 80, host: 8080
     config.vm.network "public_network", bridge: "Intel(R) Wireless-AC 9462"
 
