@@ -1,3 +1,3 @@
 # Repositório de estudos
 
-Reposítório utilizado para armazenamento/versionamento de estudos.
+Repositório utilizado para armazenamento/versionamento de estudos.
