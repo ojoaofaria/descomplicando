@@ -1,0 +1,18 @@
+## Criar arquivo encriptado
+### ele pedirá uma senha para encriptar o arquivo
+
+ansible-vault encrypt nome-do-arquivo
+ansible-vault encrypt nome-do-arquivo --output outro-arquivo
+
+## Decriptar o arquivo
+### ele pedirá uma senha para decriptar o arquivo
+
+ansible-vault decrypt nome-do-arquivo
+
+## Executando playbook com vault
+
+ansible-playbook -i hosts main.yml --ask-vault-pass
+
+### Voce pode criar um arquivo de senha e passá-lo como parametro.
+
+ansible-playbook -i hosts main.yml --vault-password-file path-do-arquivo
